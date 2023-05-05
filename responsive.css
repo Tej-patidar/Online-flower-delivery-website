@@ -1,0 +1,338 @@
+@media (max-width:600px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1% 2%;
+        
+    }
+    
+    .navimg img {
+        margin-left: 0%;
+    }
+    
+    
+    .input1 {
+        position: relative;
+    }
+    
+    .ri-map-pin-fill {
+        position: absolute;
+        top: 38%;
+        left: 8%;
+        font-size: 2vmax;
+        color: green;
+    
+    }
+    
+    .ri-arrow-down-s-fill {
+        position: absolute;
+        top: 38%;
+        left: 82%;
+        font-size: 2vmax;
+        color: green;
+    }
+    
+    .input1 input {
+        width: 39vmax;
+        height: 4vmax;
+        text-align: center;
+        border-radius: 10px;
+        font-weight: 600;
+        margin: 5% 0;
+    }
+    
+    .input2 {
+        position: relative;
+        margin-right: 2%;
+    }
+    
+    .input2 input {
+    
+        width: 39vmax;
+        height: 3.4vmax;
+        border-radius: 10px;
+        font-weight: 600;
+        padding: 0 5%;
+        color: rgba(0, 0, 0, 0.274);
+        border: 1px solid black;
+    }
+    
+    .ri-search-line {
+        position: absolute;
+        top: 18%;
+        left: 78%;
+        font-size: 2vmax;
+        color: green;
+    }
+    
+    .logoes {
+        font-size: 2vmax;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        display: none;
+    }
+    
+    .logoes i {
+        margin-right: 0%;
+    
+    }
+    
+    .sec-nav {
+        display:flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding:1%;
+        font-family: 'montserrat';
+        flex-wrap: wrap;
+    
+    }
+
+   
+    
+    .sec-nav p {
+        border-right: 1px solid black;
+        padding: 1%;
+    }
+    
+    .sec-nav p:hover {
+        color: green;
+        cursor: pointer;
+    }
+    
+    .sec-nav :last-child {
+        border: none;
+    
+    }
+    
+    .sec-nav {
+        border: none;
+    }
+
+    .container {
+        width: 100%;
+        height: auto;
+        background-image: url(https://media.istockphoto.com/id/1373298267/photo/a-modern-spring-bouquet-of-freesias-ranunculus-and-tulips-in-a-beautiful-vase.jpg?b=1&s=170667a&w=0&k=20&c=zVGpNLpVIPn_nMAVSZbTJctaq4jZ2FueQDnK18It6KQ=);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .overlay {
+        background-color: rgb(0, 0, 0, .5);
+        width: 100%;
+        height: 100%;
+        color: white;
+        border-top: 1px solid transparent;
+        font-family: "syne Mono";
+    }
+    
+    .overlay h3 {
+        font-size: 2.9vmax;
+        margin-top: 3%;
+        margin-left: 3%;
+        margin-bottom: 2%;
+    }
+    
+    .overlay p {
+        width: 70%;
+        margin-left: 3%;
+    }
+    
+    .container1 {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: right;
+        justify-content: center;
+    
+    }
+    
+    .container1 :first-child {
+        border: none;
+        font-weight: 600;
+    
+    }
+    
+    .container1 :first-child:hover {
+        background-color: white;
+    }
+    
+    
+    .container1 p {
+        margin: 0%;
+        font-size: 1.2vmax;
+        border: 1.5px solid rgba(143, 131, 131, 0.505);
+        padding: 1%;
+        margin: .7% 1%;
+        font-family: "montserrat";
+        cursor: pointer;
+    
+    }
+    
+    .container1 p:hover {
+        background-color: rgba(0, 128, 0, 0.218);
+    }
+    
+    
+    .popular {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+        padding: 1%;
+        margin: .7% 1%;
+        margin-left: 20%;
+    }
+    
+    .popular p {
+        border: none;
+    }
+    
+    .popular i {
+        font-size: 1.5vmax;
+    }
+    
+    section {
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+    .box {
+        width: 45%;
+        height: auto;
+        /* background-color: rgb(250, 215, 248); */
+        padding: 0%;
+        box-shadow: 1px 1px 5px black;
+        margin: 2% 0;
+        transition: all .5s ease;
+    }
+    
+    .box:hover {
+        transform: scale(1.1);
+    }
+    
+    .box img {
+        width: 100%;
+        height: 70%;
+    }
+    
+    .star {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: antiquewhite;
+        width: 70%;
+        font-size: 2vmax;
+        transform: translatey(-18px);
+    }
+    
+    .box h3 {
+        transform: translatey(-7px);
+    
+    }
+    
+    .box h2 {
+        margin-bottom: 0%;
+    }
+    
+    .box p {
+        font-size: 1.5vmax;
+    }
+    
+    .ri-star-s-fill {
+        color: green;
+    }
+    
+    
+    .info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .ri-information-line {
+        font-size: 2vmax;
+        margin-right: 3%;
+    }
+    
+    
+    
+    
+    .words {
+        margin: 5%;
+    }
+    
+    .words h4 {
+        text-align: right;
+    }
+    
+    .words1>h2 {
+        margin: 2.3%;
+    }
+    
+    .flex-words {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    
+    .flex {
+        margin: 2%;
+    }
+    
+    
+    footer {
+        width: 100%;
+        height: auto;
+        background-color: rgba(171, 178, 185, 0.316);
+        display: flex;
+        flex-direction: column;
+        align-items:left;
+        justify-content: center;
+        line-height: 4vmax;
+        padding: 3%;
+    }
+    
+    
+    
+    
+    
+    
+    .last>img {
+        width: 14%;
+        margin-top: 0%;
+    }
+    
+    .photo img {
+        width: 30%;
+        margin-left: 0%;
+    
+    }
+    
+    .first h2 {
+        margin-bottom: 10%;
+    }
+    
+    
+    .icons5 i {
+      
+        font-size: 4vmax;
+        transition: 1s;
+    
+    }
+    
+    .icons5:hover i {
+        cursor: pointer;
+        
+    
+    }
+    
+    
+}
